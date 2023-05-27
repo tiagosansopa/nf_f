@@ -1,0 +1,27 @@
+.faq-accordion {
+  width: 100%;
+}
+
+.faq-item {
+  background-color: #f9f9f9;
+  margin-bottom: 10px;
+  padding: 10px;
+  cursor: pointer;
+  transition: background-color 0.3s;
+}
+
+.faq-item:hover {
+  background-color: #e5e5e5;
+}
+
+.faq-item.active {
+  background-color: #e5e5e5;
+}
+
+.faq-question {
+  font-weight: bold;
+}
+
+.faq-answer {
+  margin-top: 10px;
+}
